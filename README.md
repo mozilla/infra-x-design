@@ -3,7 +3,9 @@
 WARNING: The below is an etherpad copy/paste for now. The intent is the README.md will be a very high level overview and 
 each component will have its own .md file with a detailed description.
 
-https://cacoo.com/diagrams/UVEoW1R0nyYd7k37/edit
+![Overview](overview.png)
+
+[Source for image](https://cacoo.com/diagrams/UVEoW1R0nyYd7k37/edit)
 
 # Terminology
 
