@@ -30,7 +30,7 @@ each component will have its own .md file with a detailed description.
 #### Role: Generates *jobs* and provides corresponding *Task Requests* to the Scheduler
 
 Initiation begins with a GitHub pull request or hg push
-Independent piece of the system which deals with per-project buisness logic. Initates *jobs* via talking to the scheduler.  Different projects will implement their own task masters; there won't be a generic component that can be used by everyone.
+Independent piece of the system which deals with per-project business logic. Initates *jobs* via talking to the scheduler.  Different projects will implement their own task masters; there won't be a generic component that can be used by everyone.
 The task master receives result notifications via pusle for each task that is initiated as the result of a job, and is the component that can be queried to determine the overall status of the job.
 Communicates the status of a given Job (result set) to treeherder.
 Shepherd version:  initiate job with treeherder via pulse, initiate job with scheduler via rest.  Implements rest service and/or pulse notification for job status.
